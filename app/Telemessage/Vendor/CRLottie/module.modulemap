@@ -1,0 +1,4 @@
+module CRLottie [system] {
+  header "shim.h"
+  export *
+}

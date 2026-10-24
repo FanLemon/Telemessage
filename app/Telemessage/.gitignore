@@ -1,0 +1,7 @@
+xcuserdata/
+build/
+DerivedData/
+# Telegram API credentials; copy Config/TelegramSecrets.example.plist here.
+Telemessage/TelegramSecrets.plist
+.build/
+.swiftpm/

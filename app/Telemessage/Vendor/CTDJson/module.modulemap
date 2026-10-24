@@ -1,0 +1,4 @@
+module CTDJson [system] {
+  header "shim.h"
+  export *
+}

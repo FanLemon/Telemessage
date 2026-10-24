@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Secrets: Telegram API credentials (templates are committed instead)
+app/Telemessage/Telemessage/TelegramSecrets.plist
+cli/config.local.json
+
+# Native libraries, all reproducible with ./build-libs.sh -b
+# libs/ is large (libtdcore.a alone exceeds GitHub's 100 MB file limit); see libs/VERSIONS for what was built.
+/libs/
+/libs.tmp/
+/tdlib/packages/
+/tdlib/workspace/
+# TDLib source, cloned by tdlib/build.sh (its own git repository)
+/tdlib/td/
+/medialibs/packages/
+/medialibs/workspace/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Xcode
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
